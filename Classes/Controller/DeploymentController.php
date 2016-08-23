@@ -18,24 +18,15 @@
  * @license     GNU GPL v2
  */
 
-if (!defined('TYPO3_MODE')) {
-    die ('Access denied.');
-}
 
-if (TYPO3_MODE === 'BE') {
-    \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
-        'LEWINLABS.' . $_EXTKEY,
-        'tools',
-        'tx_t3deployer',
-        // Position of the module
-        '',
-        [
-            'Deployment' => 'index',
-        ],
-        [   // Additional configuration
-            'access' => 'user,group',
-            'icon'   => 'EXT:' . $_EXTKEY . '/ext_icon.png',
-            'labels' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_mod_deployer.xml',
-        ]
-    );
+namespace LEWINLABS\T3Deployer\Controller;
+
+
+class DeploymentController extends AbstractController
+{
+
+    public function indexAction()
+    {
+
+    }
 }
