@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language file</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="header"><![CDATA[Deployment Module]]></label>
+            <label index="mlang_labels_tabdescr"><![CDATA[Deployment Module]]></label>
+            <label index="mlang_labels_tablabel"><![CDATA[Deployment]]></label>
+            <label index="mlang_tabs_tab"><![CDATA[Deployment]]></label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="header"><![CDATA[Deployment Modul]]></label>
+            <label index="mlang_labels_tabdescr"><![CDATA[Deployment Modul]]></label>
+            <label index="mlang_labels_tablabel"><![CDATA[Deployment]]></label>
+            <label index="mlang_tabs_tab"><![CDATA[Deployment]]></label>
+        </languageKey>
+    </data>
+</T3locallang>
